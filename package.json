@@ -1,12 +1,21 @@
 {
   "name": "jz-element-plus",
-  "version": "1.0.0",
+  "version": "0.0.7",
   "type": "module",
+  "keywords": [
+    "vue",
+    "element-plus",
+    "jz",
+    "jz-element-plus",
+    "ui",
+    "components"
+  ],
   "main": "./dist/jz-element-plus.cjs.js",
   "module": "./dist/jz-element-plus.es.js",
   "types": "./dist/types/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/types/index.d.ts",
       "import": "./dist/jz-element-plus.es.js",
       "require": "./dist/jz-element-plus.cjs.js"
     }
@@ -29,6 +38,8 @@
     "element-plus": "^2.8.5",
     "sass": "^1.77.8",
     "typescript": "^5.6.2",
+    "unplugin-auto-import": "^21.0.0",
+    "unplugin-vue-components": "^32.1.0",
     "vite": "^6.2.0",
     "vite-plugin-dts": "^4.3.0",
     "vue": "^3.4.38",
